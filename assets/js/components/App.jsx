@@ -8,7 +8,7 @@ var Router = require('react-router');
 var DefaultRoute = require('react-router').DefaultRoute;
 var Link = Router.Link;
 var Route = Router.Route;
-var RouteHandler = Route.Handler;
+var RouteHandler = Router.Handler;
 
 // Load relevant react components.
 var Login = require('./Login.jsx');
