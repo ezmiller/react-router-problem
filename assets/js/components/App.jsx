@@ -30,14 +30,4 @@ var App = React.createClass({
 
 });
 
-var routes = (
-  <Route name="app" path="/" handler={App}>
-    <Route name="login" handler={Login} />
-  </Route>
-);
-
-Router.run(routes, function(Handler) {
-  React.render(<Handler />, document.body);
-});
-
 module.exports = App;
